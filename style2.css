@@ -21,8 +21,8 @@ ul {
 	text-align: right;
 	float: right;
 	padding-top: 25px;
-	
 }
+
 
 li {
 	float: right;
@@ -76,7 +76,13 @@ h1 {
   text-transform: uppercase
 }
 
+.top h1 {
+	letter-spacing: 27px;
+}
 
+.down {
+	width: 300px;
+}
 #frontpage h2 {
 	position: relative;
 	top: 50%;
@@ -150,8 +156,49 @@ h1 {
 	background-color: white;
 	color: black;
 	padding: 10%;
+	text-align: center;
 }
 
 #contact p {
 	font-size: 10px;
+}
+
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+	border: 3px solid black;
+	color: black;
+	transition: all 0.3s linear;
+}
+
+.button:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+#footer {
+	background-color: black;
+	padding: 10px;
+}
+
+.copyright {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	letter-spacing: 10px;
 }
