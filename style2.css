@@ -1,0 +1,157 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+
+img {
+	padding: 20px;
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: white;
+	font-family: 'Nixie One', sans-serif;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	float: right;
+	padding-top: 25px;
+	
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: 1s ease;
+	color: white;
+	text-align: right;
+}
+
+li a:hover {
+	border-bottom: 3px solid navy;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+section {
+	font-family: 'Roboto Mono', sans-serif;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	padding-left: 15%;
+}
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+h1 {
+  position: relative;
+  top: 40%;
+  width: 100%;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: #fff;
+  font-family: 'Cousine', monospace;
+  text-align: left;
+  text-transform: uppercase
+}
+
+
+#frontpage h2 {
+	position: relative;
+	top: 50%;
+	width: 100%;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+
+
+#what {
+	background-image: url(workspace.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: black;
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	padding-right: 80px;
+	padding-left: 100px;
+}
+
+#what h2 {
+	font-size: 40px;
+	padding-right: 150px;
+	letter-spacing: 4px;
+	font-family: 'Roboto', sans-serif;
+}
+#what p {
+	padding-right: 150px;
+	padding-left: 200px;
+}
+#cell {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	background: black;
+	color: white;
+	
+}
+
+#usb {
+	background-color: black;
+	color: white;
+}
+
+#gopro {
+	background-color: black;
+	color: white;
+}
+
+#microchip {
+	background-color: black;
+	color: white;
+}
+
+#smartwatch {
+	background-color: black;
+	color: white;
+}
+
+#powerbank {
+	background-color: black;
+	color: white;
+}
+
+#speaker {
+	background-color: black;
+	color: white;
+}
+#contact {
+	background-color: white;
+	color: black;
+	padding: 10%;
+}
+
+#contact p {
+	font-size: 10px;
+}
