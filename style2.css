@@ -52,34 +52,29 @@ section {
 	padding-top: 25%;
 	padding-bottom: 25%;
 	padding-left: 15%;
+	padding-right: 15%;
 }
-#video-background {
-  position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
-}
-
+ 
 h1 {
-  position: relative;
-  top: 40%;
   width: 100%;
   font-size: 50px;
   letter-spacing: 10px;
   color: #fff;
   font-family: 'Cousine', monospace;
-  text-align: left;
-  text-transform: uppercase
+  text-align: center;
+  text-transform: uppercase;
+  bottom: 500px;
 }
 
 .top h1 {
 	letter-spacing: 27px;
+	object-position: top;
 }
 
+#frontpage {
+	background-image: url(background.png);
+	background-size: cover;
+}
 #frontpage h2 {
 	position: relative;
 	top: 50%;
@@ -87,7 +82,12 @@ h1 {
 	font-size: 18px;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	text-align: left;
+	text-align: center;
+}
+
+.down {
+	align-items: center;
+	padding-left: 800px;
 }
 
 #btn {
@@ -100,21 +100,20 @@ h1 {
 	padding-right: 10px;
 	padding-bottom: 20px;
 	padding-left: 10px;
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	display: inline-block;
-	font-weight: 400;
-	box-shadow: 0.1875rem 0.1875rem 0
-		rgba(0, 0, 0, .1)!important;
 	text-align: center;
-	background-color: white;
 	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: white;
+	letter-spacing: 5px;
+	border: 3px solid black;
 	color: black;
-	border: 1px solid white;
-	line-height: 1.5rem;
-	border-radius: 1.5;
-	text-decoration: none;
 	transition: all 0.3s linear;
+}
+
+#btn a {
+	text-decoration: none;
 }
 
 #btn:hover {
@@ -159,40 +158,49 @@ h1 {
 }
 
 #cell p {
-	width: 50%;
-	height: 100%;
-	padding-right: 200px;
 	font-size: 12px;
 }
-
-.split_a {
-	width: 100%;
+.split {
 	height: 100%;
+	width: 50%;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
 }
 
-.placeholder_a {
-	float: right;
-	width: 50%;
-	height: 100%;
-	padding-left: 500px;
-	padding-bottom: 300px;
-	position: relative;
-	
+.left {
+	left: 0;
+	background-color: black;
+}
+
+.right {
+	right: 0;
+	background-image: url(placeholder.png);
 }
 #usb {
 	background-color: whitesmoke;
 	color: slategray;
+	width: 50%;
+	height: 100%;
+	text-align: justify;
 }
 
 #usb h2 {
-	padding-right: 500px;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: relative;
 }
 
 #usb p {
-	padding-right: 500px;
+	font-size: 12px;
+}
+
+#microchip {
+	background-color: black;
+	color: white;
+
+	font-size: 12px;
 }
 
 #gopro {
@@ -200,10 +208,7 @@ h1 {
 	color: white;
 }
 
-#microchip {
-	background-color: black;
-	color: white;
-}
+
 
 #smartwatch {
 	background-color: black;
