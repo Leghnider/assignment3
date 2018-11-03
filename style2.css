@@ -1,92 +1,88 @@
 @charset "UTF-8";
-
 * {
 	box-sizing: border-box;
 }
 
-html, body {
-	width: 100% !important;
-	height: 100% !important;
-}
-
-p {
-	font-family: 'Roboto', sans-serif;
-	word-spacing: 3px;
-	letter-spacing: 1px;
-	text-align: justify;
-	line-height: 1.5;
-	width: 50%;
-	position: relative;
-}
-
 img {
+	padding: 20px;
 	float: left;
-	padding: 20px;	
 }
 
 ul {
-	color: white;
-	float: right;
-	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
 	list-style-type: none;
 	margin: 0;
-	overflow: hidden;
 	padding: 0;
-	padding-top: 25px;
-	text-align: right;
-	text-transform: uppercase;
+	overflow: hidden;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	display: inline-block;
 	vertical-align: top;
+	text-align: right;
+	float: right;
+	padding-top: 25px;
+	text-transform: uppercase;
 }
+
 
 li {
 	float: right;
 }
 
 li a {
-	color: white;
 	display: block;
 	padding: 10px 30px;
-	text-align: right;
 	text-decoration: none;
 	transition: 1s ease;
+	color: white;
+	text-align: right;
 }
 
 li a:hover {
-	border-bottom: 3px solid slategray;
+	border-bottom: 3px solid navy;
 }
 
 body {
   margin: 0;
   padding: 0;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 section {
 	font-family: 'Roboto Mono', sans-serif;
-	padding: 25% 15% 25% 15%; 
+	padding-top: 25%;
+	padding-bottom: 25%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
  
 h1 {
+  width: 100%;
+  font-size: 50px;
+  letter-spacing: 10px;
   color: #fff;
   font-family: 'Cousine', monospace;
-  font-size: 60px;
-  letter-spacing: 27px;
-  margin: 0;
   text-align: center;
   text-transform: uppercase;
-
+  bottom: 500px;
 }
+
+.top h1 {
+	letter-spacing: 27px;
+	object-position: top;
+}
+
 #frontpage {
 	background-image: url(background.png);
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 #frontpage h2 {
+	position: relative;
+	top: 50%;
+	width: 100%;
+	font-size: 18px;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	position: relative;
 	text-align: center;
 }
 
@@ -96,19 +92,25 @@ h1 {
 }
 
 #btn {
-	background-color: white;
-	border: 3px solid black;
-	border-radius: 0;
-	color: black;
-	font-weight: bold;
-	letter-spacing: 5px;
-	margin: 40px auto auto auto;
-	padding: 20px 10px 20px 10px;
-	text-align: center;
-	text-transform: uppercase;
-	transition: all 0.3s linear;
-	vertical-align: middle;
 	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: white;
+	letter-spacing: 5px;
+	border: 3px solid black;
+	color: black;
+	transition: all 0.3s linear;
 }
 
 #btn a {
@@ -123,44 +125,33 @@ h1 {
 
 #what {
 	background-image: url(workspace.jpeg);
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-repeat: no-repeat;
 	color: black;
-	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
 	text-align: right;
-	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
 }
 
 #what h2 {
-	font-size: 30px;
-	word-spacing: 8px;
-	letter-spacing: 5px;
+	font-size: 40px;
+	letter-spacing: 8px;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 
 }
 #what p {
 	position: relative;
-	font-size: 12px;
-	padding-left: 100px;
+	font-size: 15px;
+	padding-left: 300px;
 	width: 70%;
-
+	text-align: right;
 	float: right;
 }
 #cell {
 	font-family: 'Roboto', sans-serif;
 	background: black;
-	color: #F5C6E0;	
-	z-index: 100;
-}  
-#cell p {
-	position: absolute;
-}
-.container {
-	float: right; 
-	vertical-align: middle;
-	display: inline;
+	color: white;
+	
 }
 
 #cell h2 { 
@@ -168,111 +159,82 @@ h1 {
 	letter-spacing: 8px;
 }
 
-#cell img {
-	float: left;
+#cell p {
+	font-size: 12px;
+}
+.split {
+	height: 100%;
+	width: 50%;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
 }
 
+.left {
+	left: 0;
+	background-color: black;
+}
+
+.right {
+	right: 0;
+	background-image: url(placeholder.png);
+}
 #usb {
 	background-color: whitesmoke;
 	color: slategray;
-	font-family: 'Raleway', sans-serif;
-	font-weight: lighter;
-	text-align: right;
-	font-size: 15px;
-	line-height: 1.5;
+	width: 50%;
+	height: 100%;
+	text-align: justify;
 }
 
-#usb h3 {
+#usb h2 {
 	text-transform: uppercase;
-	font-size: 30px!important; 
 	letter-spacing: 8px;
 	position: relative;
-	text-align: right;
-	float: left;
 }
 
-
+#usb p {
+	font-size: 12px;
+}
 
 #microchip {
-	font-family: 'Raleway', sans-serif;
 	background-color: black;
-	color: #F5C6E0;
+	color: white;
+
 	font-size: 12px;
-	word-spacing: 3px;
-	line-height: 1.5;
 }
-#microchip h4 {
-	font-size: 30px;
-	text-transform: uppercase;
-	letter-spacing: 8px;
+
+#gopro {
+	background-color: black;
+	color: white;
 }
 
 
-#microchip img {
-	float: right;
-}
-
-#gopro h5 {
-	background-color: white;
-	color: slategray;
-	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
-	text-transform: uppercase;
-	letter-spacing: 8px;
-}
 
 #smartwatch {
 	background-color: black;
 	color: white;
-	font-size: 30px !important;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	word-spacing: 3px;
-	letter-spacing: 8px;
 }
 
-
 #powerbank {
-	background-color: white;
-	color: slategray;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	font-weight: lighter;
-	word-spacing: 3px;
-	letter-spacing: 8px;
+	background-color: black;
+	color: white;
 }
 
 #speaker {
 	background-color: black;
 	color: white;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	font-weight: lighter;
-	word-spacing: 3px;
-	letter-spacing: 8px;
-}
-
-#about {
-	padding: 15% 10% 15% 10%;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	font-weight: lighter;
-	word-spacing: 3px;
-	letter-spacing: 8px;
 }
 #contact {
-	background-color: #A9A9A9;
+	background-color: white;
 	color: black;
 	padding: 10%;
-	text-align: center !important;
+	text-align: center;
 }
 
 #contact p {
-	font-size: 10px!important;
-	text-align: center;
+	font-size: 10px;
 }
 
 #inputEmail {
@@ -284,18 +246,24 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 }
 .button {
-	border: 3px solid black;
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
 	border-radius: 0px;
-	color: black;
+	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 5px;
-	margin: 40px auto auto auto;
-	padding: 20px 10px 20px 10px;
-	text-align: center;
-	text-transform: uppercase;
+	border: 3px solid black;
+	color: black;
 	transition: all 0.3s linear;
-	vertical-align: middle;
-	width: 200px;
 }
 
 .button:hover {
