@@ -48,7 +48,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   word-spacing: 3px;
-  position: relative;
 }
 
 section {
@@ -126,6 +125,7 @@ h1 {
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
 	background-color: white;
 	letter-spacing: 5px;
 	border: 3px solid black;
@@ -151,7 +151,6 @@ h1 {
 }
 
 h3 {
-	color: black;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	letter-spacing: 10px
@@ -160,15 +159,43 @@ h3 {
 #what p {
 	position: relative;
 	font-size: 15px!important;
-	font-weight: bolder;
+	font-weight: 900;
 	letter-spacing: 1px;
 	word-spacing: 5px;
-	width: 40%;
 }
 
-#cell {
-	font-family: 'Roboto', sans-serif;
+#what div {
+	width: 45%;
+	back45y6567ground-color: rgba(210,210,210,0.50);
+	line-height: 1.6;
+	text-align: justify;
+	color: black;
+	padding: 0.5% 2% 2% 2%;
+	border-radius: 2%;
+	float: left;
 }
+
+#cell div {
+	font-family: 'Roboto', sans-serif;
+	width: 45%;
+	text-align: justify;
+	position: right;
+	clear: both;
+}
+
+#cell img {
+	max-height: 40%;
+	max-width: 30%;
+	align-content: center;
+	bottom: 500px;
+	padding-top: 10%;
+	margin-bottom: 20%;
+	position: relative;
+	float: right;
+	vertical-align: middle;
+
+}
+
 
 
 #usb {
@@ -180,24 +207,21 @@ h3 {
 #microchip {
 	background-color: black;
 	color: white;
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 #gopro {
-	background-color: black;
-	color: white;
+
 }
 
 #smartwatch {
-	background-color: black;
-	color: white;
+	
 }
 
 
 #powerbank {
-	background-color: black;
-	color: white;
+	
 }
 
 #speaker {
@@ -220,10 +244,13 @@ h10 {
 	text-align: right;
 }
 #contact {
-	background-color: white;
+	background-color: lightgray;
 	color: black;
 	padding: 10%;
 	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+	word-spacing: 5px;
+	letter-spacing: 2px;
 }
 
 #contact p {
