@@ -189,7 +189,7 @@ h3 {
 	max-width: 30%;
 	align-content: center;
 	bottom: 440px;
-        padding-top: 10%;
+    padding-top: 10%;
 	position: relative;
 	float: right;
 	vertical-align: middle;
@@ -212,10 +212,26 @@ h3 {
 }
 
 #microchip {
-	background-color: black;
+	background-color: teal;
+	background-image: url(marble.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: color-burn;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+}
 
+#microchip p {
+	width: 40%;
+	text-align: justify;
+}
+
+#microchip img {
+	max-width: 25%;
+	padding: 0;
+	float: right;
+	bottom: 250px;
+	position: relative;
 }
 
 #gopro {
@@ -239,10 +255,10 @@ h7{
 }
 
 #powerbank {
-	background-image: url(powerbank.jpg);
+	background-image: url(powebank.png);
 	background-size: cover;
+	background-position: center;
 }
-
 
 #powerbank div {
 	width: 45%;
@@ -253,7 +269,6 @@ h7{
 #speaker {
 	background-image: url(speaker.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center;
 	align-content: center;
 }
@@ -274,10 +289,6 @@ h10 {
 	font-family: 'Roboto Mono', sans-serif;
 	word-spacing: 5px;
 	letter-spacing: 2px;
-}
-
-#contact p {
-	font-size: 10px;
 }
 
 .button {
