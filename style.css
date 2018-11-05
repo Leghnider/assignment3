@@ -8,7 +8,7 @@ img {
 	float: left;
 }
 
-ul {
+header ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -25,11 +25,12 @@ ul {
 }
 
 
-li {
+
+header li {
 	float: right;
 }
 
-li a {
+header li a {
 	display: block;
 	padding: 10px 30px;
 	text-decoration: none;
@@ -38,7 +39,7 @@ li a {
 	text-align: right;
 }
 
-li a:hover {
+header li a:hover {
 	border-bottom: 3px solid navy;
 }
 
@@ -207,7 +208,7 @@ h3 {
 }
 
 #usb p {
-	width: 40%;
+	width: 45%;
 	text-align: justify;
 }
 
@@ -222,7 +223,7 @@ h3 {
 }
 
 #microchip p {
-	width: 40%;
+	width: 45%;
 	text-align: justify;
 }
 
@@ -243,6 +244,7 @@ h3 {
 	color: white;
 }
 
+
 h7{
 	letter-spacing: 10px;
 	font-size: 40px!important;
@@ -258,6 +260,8 @@ h7{
 	background-image: url(powebank.png);
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
+	text-align: justify;
 }
 
 #powerbank div {
@@ -267,19 +271,34 @@ h7{
 }
 
 #speaker {
-	background-image: url(speaker.jpg);
+	background-image: url(speaker.png);
 	background-size: cover;
-	background-position: center;
+	background-position: center 100%;
+	background-attachment: fixed;
 	align-content: center;
+	text-align: justify;
 }
 
 #speaker div {
 	width: 50%;
 }
 
-h10 {
-
+#about, h11 {
+	text-align: left;
+	font-family: 'Roboto Mono', sans-serif !important;
 	
+}
+
+.contact-list {
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+#about img {
+	max-width: 2%;
+	padding: 0.5%;
+	max-height: 2%;
+	left: 0;
 }
 #contact {
 	background-color: lightgray;
@@ -289,6 +308,20 @@ h10 {
 	font-family: 'Roboto Mono', sans-serif;
 	word-spacing: 5px;
 	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+h12 {
+	font-size: 25px;
+	
+}
+
+#contact-us-section ul {
+	color: #F4C5E0;
+	text-align: left!important;
+	padding-left: 2%;
+	line-height: 2;
+	list-style: none;
 }
 
 .button {
