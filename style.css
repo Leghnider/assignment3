@@ -24,8 +24,6 @@ header ul {
 	text-transform: uppercase;
 }
 
-
-
 header li {
 	float: right;
 }
@@ -81,7 +79,7 @@ h1 {
   font-size: 50px;
   letter-spacing: 10px;
   color: #fff;
-  font-family: 'Cousine', monospace;
+  font-family: 'Roboto', monospace;
   text-align: center;
   text-transform: uppercase;
   bottom: 500px;
