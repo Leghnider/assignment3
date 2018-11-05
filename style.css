@@ -249,10 +249,18 @@ h7{
 	
 }
 
-#smartwatch {
-	
+#lightning {
+	background-image: url(lightning.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	color: white;
 }
 
+#lightning p {
+	width: 70%;
+	text-align: justify;
+}
 #powerbank {
 	background-image: url(powebank.png);
 	background-size: cover;
