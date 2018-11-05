@@ -159,9 +159,8 @@ h3 {
 #what p {
 	position: relative;
 	font-size: 15px!important;
-	font-weight: 900;
 	letter-spacing: 1px;
-	word-spacing: 5px;
+	word-spacing: 3px;
 }
 
 #what div {
