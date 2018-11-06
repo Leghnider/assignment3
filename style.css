@@ -62,6 +62,7 @@ h3, h4, h5, h6, h7, h8, h9, h10, h11 {
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	word-spacing: 3px;
+	text-align: left;
 }
 
 #cell, #microchip, #smartwatch, #speaker {
@@ -277,8 +278,8 @@ h7{
 
 #speaker {
 	background-image: url(speaker.png);
-	background-size: cover;
-	background-position: center 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	align-content: center;
 	text-align: justify;
@@ -291,6 +292,7 @@ h7{
 #about, h11 {
 	text-align: left;
 	font-family: 'Roboto Mono', sans-serif !important;
+	color: #8C8C8C;
 	
 }
 
