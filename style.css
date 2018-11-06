@@ -295,9 +295,11 @@ h7{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	align-content: center;
-	text-align: justify;
 }
+
+h10 {
+        text-align: justify;
+
 
 #speaker div {
 	width: 50%;
