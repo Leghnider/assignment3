@@ -293,7 +293,7 @@ h7{
 
 #speaker {
 	background-image: url(speaker.png);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	align-content: center;
